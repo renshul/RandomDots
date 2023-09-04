@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+    overflow: hidden;
+    background: black;
+}
+
+#canvas {
+    width: 100vw;
+    height: 100vh;
+}
+
+.dot {
+    position: absolute;
+    background: #FFFFFF;
+    width: 5px;
+    border-radius: 15px;
+    height: 5px;
+    box-shadow: 0 0 200px 0 rgba(255, 255, 255, 0.9);
+}
